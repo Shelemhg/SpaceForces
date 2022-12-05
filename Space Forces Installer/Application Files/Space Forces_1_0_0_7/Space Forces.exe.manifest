@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.0.0.7" name="Space Forces.exe" publicKeyToken="55dd54f316dd7825" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="sf.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Space Forces" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Space Forces.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Opciones del manifiesto de Control de cuentas de usuario
+             Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+             nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Si desea utilizar la virtualización de archivos y del Registro para la compatibilidad 
+            con versiones anteriores, elimine el nodo requestedExecutionLevel.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="49152">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>+mDAJHEoPmB2I/WTIrk8/wbY9tA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="274432">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>52IOfF5On5Hce8bnA1XCO3yHhQA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Space Forces.exe" size="12510720">
+      <assemblyIdentity name="Space Forces" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>TdawjWb4SvaouQonxqwPc+j52NU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="sf.ico" size="26622">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>NWdRbLt2s94YknvpM8sxDt4Jsyc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ACER-4\Shelem" issuerKeyHash="9e2a80772fe5dfc4a1dd7b35d5cdfa0621205fa9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>KMPfPzng7DgbFwF1KB7fch7RL6s=</DigestValue></Reference></SignedInfo><SignatureValue>YNQa6lBeYeoHxEWRRqGHY18KmaB9zb1l72+jKlcXcWMf5AMJ9uxSgF2gsX1DlNHRJP5hkMG4/2bjLCyjqa0VrPDyDnucVdDALVF+XJDEU0EgBvy+DH94PhlsdoNLrl69JrbTT+k+VHW8fZB8O8kw2N/ct6Kv8b+0MdxQQb/lpRE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>kZEDThWR9XVO5YxRGRPLf85nBxVrGlQfqwrfPBzM4HzOlyi6MuEU4cJ1s4OxiAru2GUMyCnbizJYgAlvgvu6Cz81RXs88ZjmwNa5/uhZqjKlrAbZCu7zJiQyzOjBBDvtCuw49dzb9eQz6DOgpTV7DwTnam4BqvfGpLjmAqvgGc0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ab2fd11e72df1e287501171b38ece0393fdfc328" Description="" Url=""><as:assemblyIdentity version="1.0.0.7" name="Space Forces.exe" publicKeyToken="55dd54f316dd7825" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ACER-4\Shelem</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>E7Vo7XWOnUcCPLnMryeFEgB7DlA=</DigestValue></Reference></SignedInfo><SignatureValue>DEIxkMirccwADkrswNz4UkztaFBn5QV65lBztAg2Hx0T1GtioHYPshnpAnVTVJY+LIsurviQxTRQfAX4xmGllLnR2pjvOZdGAfcfndwjJ7jLR0NdzUEcrqRIJQrGlUgOVjvu6p3sMgjvbxQt4pFdmCmWYubRVv0+uavPwcBOyYM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>kZEDThWR9XVO5YxRGRPLf85nBxVrGlQfqwrfPBzM4HzOlyi6MuEU4cJ1s4OxiAru2GUMyCnbizJYgAlvgvu6Cz81RXs88ZjmwNa5/uhZqjKlrAbZCu7zJiQyzOjBBDvtCuw49dzb9eQz6DOgpTV7DwTnam4BqvfGpLjmAqvgGc0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCATKgAwIBAgIQb9Cf6qx0c5hCYBB1AJvt2DAJBgUrDgMCHQUAMCUxIzAhBgNVBAMeGgBBAEMARQBSAC0ANABcAFMAaABlAGwAZQBtMB4XDTEwMDYwMzAxMzEwNVoXDTExMDYwMzA3MzEwNVowJTEjMCEGA1UEAx4aAEEAQwBFAFIALQA0AFwAUwBoAGUAbABlAG0wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJGRA04VkfV1TuWMURkTy3/OZwcVaxpUH6sK3zwczOB8zpcoujLhFOHCdbODsYgK7thlDMgp24syWIAJb4L7ugs/NUV7PPGY5sDWuf7oWaoypawG2Qru8yYkMszowQQ77QrsOPXc2/XkM+gzoKU1ew8E52puAar3xqS45gKr4BnNAgMBAAEwCQYFKw4DAh0FAAOBgQB0nAGuyeuQGIJ1jtY0Y3LB+o0XL1VmHDHwtq8+CGKKXmXCPztY7mz535QUDkWubKaWS1m7AJ+3w1+xQEhJ2mG1OiTP9NGMmVkjn4l8q9uc0evz8VkQcLaUKr9UT+aAmY52kfi3hoED7kgXQLABXmOpdhyt6e30VZY2X8a37BkjIw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
